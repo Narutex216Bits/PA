@@ -6,47 +6,54 @@ namespace Aula_19_09_2023
     {
         static void Main(string[] args)
         {
-            // Declaração das Variáveis //
+            float nota1, nota2, nota3, nota4, soma, media;
 
-            float media, nota0, nota1, nota2, nota3;
-
-            // Entrada de dados //
-
-            Console.Write("Informe a 1ª Nota: ");
-            nota0 = float.Parse(Console.ReadLine());
-
-            Console.Write("Informe a 2ª Nota: ");
+            Console.Write("Informe a 1º Nota: ");
             nota1 = float.Parse(Console.ReadLine());
 
-            Console.Write("Informe a 3ª Nota: ");
+            Console.Write("Informe a 2º Nota: ");
             nota2 = float.Parse(Console.ReadLine());
 
-            Console.Write("Informe a 4ª Nota: ");
+            Console.Write("Informe a 3º Nota: ");
             nota3 = float.Parse(Console.ReadLine());
 
-            // Processamento dos dados //
+            Console.Write("Informe a 4º Nota: ");
+            nota4 = float.Parse(Console.ReadLine());
 
-            media = (nota0 + nota1 + nota2 + nota3) / 4;
-                  
-            // Informação da média e se o aluno foi aprovado //
+            soma = nota1 + nota2 + nota3 + nota4;
+
+            media = soma / 4;
+
+            //0.00 a 4.99 - Reprovado
+            //5.00 a 6.99 - Recuperação
+            //7.00 a 10 - Aprovado
 
             if (media < 5)
             {
-                Console.WriteLine("Reprovado!!!");
-                Console.WriteLine("Temos mais um Repetente!!!");
+                Console.WriteLine("Reprovado");
+                Console.WriteLine("Poxa que Pena!!!");
             }
             else if (media < 7)
             {
-                Console.WriteLine("Recuperação!!!");
-                Console.WriteLine("Mais um aluno que vem na escola até o Natal!!!");
+                Console.WriteLine("Recuperação");
+                Console.WriteLine("Coragem!!!");
             }
             else
             {
-                Console.WriteLine("Aprovado!!!");
-                Console.WriteLine("Parabóins!!! Você não tem vida social!!!");
+                Console.WriteLine("Aprovado");
+                Console.WriteLine("Parabéns!!!");
             }
 
-
+            if (media < 5)
+            {
+                Console.WriteLine("Reprovado");
+                Console.WriteLine("Poxa que Pena!!!");
+            }
+            else
+            {
+                Console.WriteLine("Aprovado");
+                Console.WriteLine("Parabéns!!!");
+            }
         }
     }
 }

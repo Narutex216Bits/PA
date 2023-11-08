@@ -1,49 +1,57 @@
 ﻿using System;
 
-namespace Aula__05_10_2023_Ex01
+namespace Aula_17_10_2023
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Declaração das variáveis //
-
-            float num0, num1, resultado;
+            float num1, num2, resultado;
             string operador;
+            float valor = 10;
 
-            //Entrada de dados //
-
-            Console.Write("Insira o primeiro valor da calculadora: ");
-            num0 = float.Parse(Console.ReadLine());
-
-            Console.Write("Insira o segundo valor da calculadora: ");
+            Console.Write("Digite um numero: ");
             num1 = float.Parse(Console.ReadLine());
 
-            Console.Write("Insira o Operador que você deseja Utilziar: ");
-            operador = Console.ReadLine();
+            Console.Write("Digite outro numero: ");
+            num2 = float.Parse(Console.ReadLine());
 
-            // Processamento dos dados e tomada de decisão //
+            Console.Write("Digite um operador que deseja para realizar a conta: ");
+            operador = Console.ReadLine();
 
             switch (operador)
             {
                 case "+":
-                    resultado = num0 + num1;
+                    resultado = num1 + num2;
                     Console.WriteLine("O resultado é: " + resultado);
                     break;
                 case "-":
-                    resultado = num0 - num1;
+                    resultado = num1 - num2;
                     Console.WriteLine("O resultado é: " + resultado);
                     break;
                 case "*":
-                    resultado = num0 * num1;
+                    resultado = num1 * num2;
                     Console.WriteLine("O resultado é: " + resultado);
                     break;
                 case "/":
-                    resultado = num0 / num1;
+                    resultado = num1 / num2;
                     Console.WriteLine("O resultado é: " + resultado);
                     break;
                 default:
-                    Console.WriteLine("Operador Inválido!");
+                    Console.WriteLine("Operador Inválido");
+                    break;
+            }
+
+            switch (valor)
+            {
+                case 10.50f:
+                    Console.WriteLine("Operador Inválido");
+                    break;
+                case 2:
+                    Console.WriteLine("Operador Inválido");
+                    break;
+                default:
+                    Console.WriteLine("Operador Inválido");
                     break;
             }
         }

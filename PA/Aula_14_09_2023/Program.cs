@@ -6,32 +6,26 @@ namespace Aula_14_09_2023
     {
         static void Main(string[] args)
         {
-            // Declaração das variáveis //
-            
-            decimal n0, n1, n2, n3, media;
-            
-            // Entrada de dados //
+            decimal n1, n2, n3, n4, media;
 
-            Console.Write("Digite a primeira nota: ");
-            n0 = decimal.Parse(Console.ReadLine());
-
-            Console.Write("Digite a segunda nota: ");
+            Console.Write("Informe a Nota 01: ");
             n1 = decimal.Parse(Console.ReadLine());
 
-            Console.Write("Digite a terceira nota: ");
+            Console.Write("Informe a Nota 02: ");
             n2 = decimal.Parse(Console.ReadLine());
 
-            Console.Write("Digite a quarta nota: ");
+            Console.Write("Informe a Nota 03: ");
             n3 = decimal.Parse(Console.ReadLine());
 
-            // Processamento do programa //
+            Console.Write("Informe a Nota 04: ");
+            n4 = decimal.Parse(Console.ReadLine());
 
-            media = (n0 + n1 + n2 + n3) / 4;
-
-            // Envio da informação final para o usuário //
+            media = (n1 + n2 + n3 + n4) / 4;
 
             Console.WriteLine("A média final é: " + media);
+            Console.WriteLine("A média final é: " + (n1 + n2 + n3 + n4) / 4);
 
+            Console.WriteLine($"A média fina é: {media}");
         }
     }
 }

@@ -6,21 +6,24 @@ namespace Aula_19_10_2023_While_Ex03
     {
         static void Main(string[] args)
         {
-            int fator, limitador, contador = 1;
+            int fator;
+            int numeroFinal;
 
-            Console.Write("Digite o multiplicador da tabuada: ");
+            Console.Write("Informe o Fator: ");
             fator = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite o limitador da tabuada: ");
-            limitador = int.Parse(Console.ReadLine());
+            Console.Write("Informe o Nº Final: ");
+            numeroFinal = int.Parse(Console.ReadLine());
 
-            while (contador <= limitador)
+            //2 x 1 = 2
+            int contador = 1;
+            while (contador <= numeroFinal)
             {
                 Console.WriteLine($"{fator} x {contador} = {fator * contador}");
+                //contador = contador + 1;
                 contador++;
             }
-            Console.WriteLine("***Fim da Tabuada***");
-
+            Console.WriteLine("*** Fim da Tabuada ***");
         }
     }
 }
