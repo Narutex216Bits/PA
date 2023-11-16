@@ -13,8 +13,11 @@ namespace Aula_14_11_2023_Ex02
 
             for(int contador = 1; contador <= limite; contador++)
             {
-                Console.WriteLine($"{contador % 2 == 1}");
-                Console.ForegroundColor = ConsoleColor.Red;
+                if (contador%2==1)
+                {
+                    Console.WriteLine(contador);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                }          
             }
 
         }
