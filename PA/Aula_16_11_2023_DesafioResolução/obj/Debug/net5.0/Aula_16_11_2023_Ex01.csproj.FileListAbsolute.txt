@@ -1,0 +1,16 @@
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.csproj.AssemblyReference.cache
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.GeneratedMSBuildEditorConfig.editorconfig
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.AssemblyInfoInputs.cache
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.AssemblyInfo.cs
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.csproj.CoreCompileInputs.cache
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\Aula_16_11_2023_Ex01.exe
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\Aula_16_11_2023_Ex01.deps.json
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\Aula_16_11_2023_Ex01.runtimeconfig.json
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\Aula_16_11_2023_Ex01.runtimeconfig.dev.json
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\Aula_16_11_2023_Ex01.dll
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\ref\Aula_16_11_2023_Ex01.dll
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\bin\Debug\net5.0\Aula_16_11_2023_Ex01.pdb
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.dll
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\ref\Aula_16_11_2023_Ex01.dll
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.pdb
+C:\PA\PA\PA\Aula_16_11_2023_Ex01\obj\Debug\net5.0\Aula_16_11_2023_Ex01.genruntimeconfig.cache
