@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj": {}
+    "C:\\PA\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj": {}
   },
   "projects": {
-    "C:\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj": {
+    "C:\\PA\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj",
+        "projectUniqueName": "C:\\PA\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj",
         "projectName": "Aula_09_11_2023_Ex01",
-        "projectPath": "C:\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj",
+        "projectPath": "C:\\PA\\PA\\PA\\Aula_09_11_2023_Ex01\\Aula_09_11_2023_Ex01.csproj",
         "packagesPath": "C:\\Users\\Etec\\.nuget\\packages\\",
-        "outputPath": "C:\\PA\\PA\\Aula_09_11_2023_Ex01\\obj\\",
+        "outputPath": "C:\\PA\\PA\\PA\\Aula_09_11_2023_Ex01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
